@@ -1,12 +1,25 @@
-# React + Vite
+A full-featured Ship Maintenance Management System built using React.js, Tailwind CSS, and Local Storage. This application allows ship maintenance teams to manage ships, components, maintenance jobs, and system KPIs with role-based access.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+Role-Based Login System
+Admin, Inspector, Engineer roles with tailored permissions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ship Management
+Add, edit, delete ships with detailed profiles.
 
-## Expanding the ESLint configuration
+Component Management
+Link components to ships and track their maintenance status.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Job Management
+Create, assign, update maintenance jobs.
+Filter by ship, priority, and status.
+Calendar view of scheduled jobs.
+
+KPI Dashboard
+View total ships, overdue components, jobs in progress and completed.
+Includes pie chart for job status distribution.
+
+Notification System
+In-app toast notifications for job actions.
+Dismissible and context-based.
