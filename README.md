@@ -2,24 +2,24 @@ A full-featured Ship Maintenance Management System built using React.js, Tailwin
 
 Features
 
-Role-Based Login System
+Role-Based Login System : 
 Admin, Inspector, Engineer roles with tailored permissions.
 
-Ship Management
+Ship Management : 
 Add, edit, delete ships with detailed profiles.
 
-Component Management
+Component Management : 
 Link components to ships and track their maintenance status.
 
-Job Management
+Job Management : 
 Create, assign, update maintenance jobs.
 Filter by ship, priority, and status.
 Calendar view of scheduled jobs.
 
-KPI Dashboard
+KPI Dashboard : 
 View total ships, overdue components, jobs in progress and completed.
 Includes pie chart for job status distribution.
 
-Notification System
+Notification System : 
 In-app toast notifications for job actions.
 Dismissible and context-based.
